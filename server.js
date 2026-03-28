@@ -7,7 +7,7 @@ const app = express();
 const PORT = 3000;
 
 // Invidious APIのベースURL (不安定な場合は https://api.invidious.io/ で別のURLを探せます)
-const API_BASE = "https://iv.ggtyler.dev/api/v1";
+const API_BASE = "https://invidious.f5.si/";
 
 app.set('view engine', 'ejs');
 app.use(cookieParser());
